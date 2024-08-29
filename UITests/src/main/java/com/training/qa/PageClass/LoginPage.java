@@ -1,5 +1,7 @@
 package com.training.qa.PageClass;
 
-public class LoginPage {
+import com.testng.pages.BasePage;
+
+public class LoginPage extends BasePage{
 
 }
