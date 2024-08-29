@@ -1,4 +1,4 @@
-package com.training.qa.UITests;
+package com.training.qa.Tests;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
