@@ -16,18 +16,7 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>SeleniumIntroduction</groupId>
-			<artifactId>SeleniumIntroduction</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
+		
 
 		<!--
 		https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -43,16 +32,12 @@
 			<version>5.4.0</version>
 			<scope>test</scope>
 		</dependency>
-
-
 		<!-- https://mvnrepository.com/artifact/org.bitbucket.swattu/json-utils -->
 		<dependency>
 			<groupId>org.bitbucket.swattu</groupId>
 			<artifactId>json-utils</artifactId>
 			<version>5.0.1</version>
 		</dependency>
-
-
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
@@ -81,6 +66,11 @@
 			<version>7.10.2</version>
 			<scope>test</scope>
 		</dependency>
+
+
+
+
+
 
 
 	</dependencies>

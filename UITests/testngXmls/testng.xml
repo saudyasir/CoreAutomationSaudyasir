@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Frameword Testing Suite">
+
+
+
+	<test thread-count="5" name="UI Testing Test cases">
+
+
+		<classes>
+			<class name="com.training.qa.Tests.AppTest">
+
+				<methods>
+
+					<include name="" />
+
+				</methods>
+					</class>
+		</classes>
+	</test> <!-- UI Testing Test cases -->
+</suite> <!-- Automation Frameword Testing Suite -->
