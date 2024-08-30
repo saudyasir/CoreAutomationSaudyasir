@@ -15,11 +15,6 @@ public class AppTests extends SeleniumBase
 	PropertyConfigFile td;
 	
 	
-	@BeforeSuite
-	public void beforeSuite() {
-		System.out.println("In Before Suite");
-	}
-
 	@BeforeTest (alwaysRun = true)
 	@Parameters({"environment","smoke_flag"}) //from testNG xml file
 	

@@ -2,16 +2,27 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-30T17:16:22 IST" name="Automation Frameword Testing Suite" finished-at="2024-08-30T17:16:23 IST" duration-ms="958">
+  <suite started-at="2024-08-31T00:53:07 IST" name="Automation Frameword Testing Suite" finished-at="2024-08-31T00:53:09 IST" duration-ms="2158">
     <groups>
     </groups>
-    <test started-at="2024-08-30T17:16:22 IST" name="UI Testing Test cases" finished-at="2024-08-30T17:16:23 IST" duration-ms="958">
+    <test started-at="2024-08-31T00:53:07 IST" name="UI Testing Test cases" finished-at="2024-08-31T00:53:09 IST" duration-ms="2158">
       <class name="com.training.qa.Tests.AppTests">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:22 IST" name="beforeSuite" finished-at="2024-08-30T17:16:22 IST" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="setupExecutionParams(java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:07 IST" name="setupExecutionParams" finished-at="2024-08-31T00:53:07 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExecutionParams -->
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:07 IST" name="beforeSuite" finished-at="2024-08-31T00:53:07 IST" depends-on-methods="com.testng.driver.SeleniumBase.setupExecutionParams" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="testDataSetup(java.lang.String,java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:22 IST" name="testDataSetup" finished-at="2024-08-30T17:16:23 IST" duration-ms="79" status="PASS">
+        <test-method is-config="true" signature="testDataSetup(java.lang.String,java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:07 IST" name="testDataSetup" finished-at="2024-08-31T00:53:07 IST" duration-ms="250" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDataSetup -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="beforeMethod" finished-at="2024-08-30T17:16:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="beforeMethod" finished-at="2024-08-31T00:53:09 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="login(java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="login" data-provider="datProvideFromExcel" finished-at="2024-08-30T17:16:23 IST" duration-ms="33" status="PASS">
+        <test-method signature="login(java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="login" data-provider="datProvideFromExcel" finished-at="2024-08-31T00:53:09 IST" duration-ms="40" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,11 +53,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="afterMethod" finished-at="2024-08-30T17:16:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="afterMethod" finished-at="2024-08-31T00:53:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="login(java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="login" data-provider="datProvideFromExcel" finished-at="2024-08-30T17:16:23 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="beforeMethod" finished-at="2024-08-31T00:53:09 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="login" data-provider="datProvideFromExcel" finished-at="2024-08-31T00:53:09 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,19 +72,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="beforeMethod" finished-at="2024-08-30T17:16:23 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="afterMethod" finished-at="2024-08-30T17:16:23 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="afterMethod" finished-at="2024-08-31T00:53:09 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="logout" finished-at="2024-08-30T17:16:23 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="logout" finished-at="2024-08-31T00:53:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.training.qa.Tests.AppTests@3527942a]" started-at="2024-08-30T17:16:23 IST" name="afterSuite" finished-at="2024-08-30T17:16:23 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.training.qa.Tests.AppTests@6fdbe764]" started-at="2024-08-31T00:53:09 IST" name="afterSuite" finished-at="2024-08-31T00:53:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

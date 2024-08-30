@@ -21,7 +21,7 @@ public class DataProviderClass {
 	public Object[][] getDataFromExcel() throws IOException {
 		// Logic to get data and return in Object [][]
 
-		FileInputStream stream = new FileInputStream("D:\\DemoFile.xlsx");
+		FileInputStream stream = new FileInputStream("D:/DemoFile.xlsx");
 		XSSFWorkbook work_book = new XSSFWorkbook(stream);
 		XSSFSheet sheet = work_book.getSheetAt(0);
 		Object[][] data = new Object[2][1];
