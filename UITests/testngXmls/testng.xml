@@ -3,19 +3,20 @@
 <suite name="Automation Frameword Testing Suite">
 
 
+	<parameter name="environment" value="test"/>
+	
+		<test thread-count="5" name="UI Testing Test cases">
 
-	<test thread-count="5" name="UI Testing Test cases">
 
+			<classes>
+				<class name="com.training.qa.Tests.AppTests">
 
-		<classes>
-			<class name="com.training.qa.Tests.AppTest">
+					<methods>
 
-				<methods>
+						<include name="login" />
 
-					<include name="" />
-
-				</methods>
-					</class>
-		</classes>
-	</test> <!-- UI Testing Test cases -->
+					</methods>
+				</class>
+			</classes>
+		</test> <!-- UI Testing Test cases -->
 </suite> <!-- Automation Frameword Testing Suite -->
