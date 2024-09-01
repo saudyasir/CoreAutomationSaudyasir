@@ -16,6 +16,16 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20210307</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>5.0.9</version>
+		</dependency>
 		<!-- Core Log4j 2 library -->
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
