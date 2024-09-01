@@ -1,11 +1,16 @@
 package com.training.qa.Tests;
 
+import com.testng.listeners.*;
+
 import org.testng.annotations.*;
 import com.testng.driver.SeleniumBase;
 import com.training.qa.testdataproperty.PropertyConfigFile;
 
 import org.aeonbits.owner.ConfigFactory;
-import org.testng.TestNG;
+
+
+
+@Listeners({MyTestListener.class})
 
 public class AppTests extends SeleniumBase
 
@@ -29,27 +34,19 @@ public class AppTests extends SeleniumBase
 		
 	}
 
-	@BeforeMethod
-	public void beforeMethod() {
-		System.out.println("In Before Method");
-	}
-
-	@Test (dataProvider ="datProvideFromExcel", dataProviderClass=DataProviderClass.class)
-	public void login(String username) {
+	
+	// Test Case 
+	@Test (groups = {"Regression"},dataProvider ="datProvideFromExcel", dataProviderClass=DataProviderClass.class)
+	public void SB1_login(String username) {
 		
 		System.out.println(td.url());
-
-		System.out.println(username);
+		//reportLog("bala");
+		//System.out.println(username);
 
 	}
 	
 
-	/*@Test (alwaysRun = false)
-	public void loginPassword() {
-
-		System.out.println("Test2 is Run");
-
-	}*/
+	
 
 	@AfterMethod
 	public void afterMethod() {

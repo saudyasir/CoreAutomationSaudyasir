@@ -27,8 +27,8 @@ public class SeleniumBase extends TestBase {
 	@Parameters({"environment"})
 	public void setupExecutionParams( @Optional("test") String environment) {
 
-		System.out.println("In Before Suite");
-		Log.info("In Before Suite 1 --- setupExecutionParams");
+		System.out.println("In Before Suite SeleniumBase Class");
+		Log.info("In Before Suite SeleniumBase Class --- setupExecutionParams");
 		testEnv = environment;
 		File resourcesDirectory = new File("src/main/resources");
 		String resourcesDir = resourcesDirectory.getAbsolutePath();

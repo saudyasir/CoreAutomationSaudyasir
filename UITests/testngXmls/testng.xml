@@ -3,20 +3,24 @@
 <suite name="Automation Framework Testing Suite">
 
 
-	<parameter name="environment" value="test"/>
-	
-		<test thread-count="5" name="UI Testing Test cases">
+	<parameter name="environment" value="test" />
+	<parameter name="browser" value="chrome" />
+
+	<listeners>
+		<listener class-name="com.testng.listeners.MyTestListener" />
+	</listeners>
 
 
-			<classes>
-				<class name="com.training.qa.Tests.AppTests">
+	<test thread-count="5" name="UI Testing Test cases">
+		<classes>
+			<class name="com.training.qa.Tests.AppTests">
 
-					<methods>
+				<methods>
 
-						<include name="login" />
+					<include name="SB1_login" />
 
-					</methods>
-				</class>
-			</classes>
-		</test> <!-- UI Testing Test cases -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- UI Testing Test cases -->
 </suite> <!-- Automation Frameword Testing Suite -->
